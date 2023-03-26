@@ -5,14 +5,14 @@
 
 <body>
 	<h1>Матрасы</h1>
-	<h2>Places I'd Like to Visit</h2>
+	<h2>От самых маленьких до самых больших</h2>
 	<ul>
 	  @foreach ($togo as $newplace)
 		<li>{{ $newplace->name }}</li>
 	  @endforeach
 	</ul>
 
-	<h2>Places I've Already Been To</h2>
+	<h2>Падушки</h2>
 	<ul>
           @foreach ($visited as $place)
                 <li>{{ $place->name }}</li>
